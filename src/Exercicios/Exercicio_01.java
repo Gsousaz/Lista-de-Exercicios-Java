@@ -13,8 +13,7 @@ public class Exercicio_01 {
     public static int lerNumero () {
         Scanner userImput = new Scanner(System.in);
         System.out.println("Escolha um número!");
-        int numero = userImput.nextInt();
-        return numero;
+        return userImput.nextInt();
     }
 
     public static boolean ehPar (int numero){
